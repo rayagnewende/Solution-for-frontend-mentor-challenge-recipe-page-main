@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  /* .outfit-thin {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  } */
+  
+
+body {
+    font-family:"Outfit" ;
+    width: 100%;
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    background-color:#ffffff;
+    padding: 30px;
+
+}
+
+/*  style de la partie  presentation */
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.presentation p {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.preparationTime {
+    background-color:#fff7fc;
+    padding: 30px;
+}
+.preparationTime h3 {
+    color:#744158; 
+    font-weight: bold;
+}
+.preparationTime ul {
+    padding-left:25px;
+    padding-top: 10px;
+}
+.preparationTime ul li{
+    padding: 10px;
+}
+
+/*  style de la section ingredients */
+
+.subTitle {
+    font-size: 25px;
+    margin: 20px 0;
+    color:#814433;
+}
+.ingredients ul {
+    padding-left: 12px;
+}
+.ingredients ul li {
+    margin: 12px 0;
+    padding-left: 15px;
+
+}
+.ligne {
+    margin: 30px 0;
+    color: #e0e0e0;
+}
+
+/*  style de la section instructions  */
+.instructions ol {
+    padding-left: 12px;
+}
+.instructions ol li {
+    margin: 12px 0;
+    padding-left: 15px;
+
+}
+/*  style de la section nutrition  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+table td {
+    padding: 10px 60px 10px 20px; 
+}
+table tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.color {
+    color: #76473d;
+    font-weight: bold;
+} 
+
+/* Adaptation pour le descktop */  
+
+@media (min-width: 1025px) {
+    .container {
+        width: 50%;
+        background-color:#ffffff;
+        padding: 30px;
+    
+    }
+  }
